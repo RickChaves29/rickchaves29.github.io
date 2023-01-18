@@ -11,6 +11,10 @@
     --green: #27AE60;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--black-900);
     color: var(--white);
@@ -84,6 +88,12 @@ header>section>.container-image>img {
     border-radius: 50%;
 }
 
+@media (min-width: 1020px) {
+    header {
+        height: 100vh;
+    }
+}
+
 @media (max-width: 600px) {
     header>nav>a {
         font-size: 2rem;
@@ -135,5 +145,96 @@ header>section>.container-image>img {
 
     header>section>.container-image>img {
         max-width: 196.89px;
+    }
+}
+
+/* main css */
+main {
+    margin-top: 2.938rem;
+}
+
+main>.container-section-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7.5rem;
+}
+
+main>.container-section-about>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 745px;
+    gap: 2.375rem;
+    margin-bottom: 2.375rem;
+}
+
+main>.container-section-about>div>h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+main>.container-section-about>div>p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+main>.container-section-about>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6.438rem;
+}
+
+main>.container-section-about>ul>li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main>.container-section-about>ul>li>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black-800);
+    width: 62px;
+    height: 64px;
+    border-radius: 50%;
+    margin-bottom: 1.125rem;
+}
+
+main>.container-section-about>ul>li>div>i {
+    background-color: var(--green);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+main>.container-section-about>ul>li>a:hover {
+    color: var(--green);
+}
+
+@media (max-width: 600px) {
+    main>.container-section-about>div {
+        max-width: 445px;
+    }
+
+    main>.container-section-about>ul {
+        gap: 4.438rem;
+    }
+}
+
+@media (max-width: 450px) {
+    main>.container-section-about>div {
+        max-width: 345px;
+    }
+}
+
+@media (max-width: 300px) {
+    main>.container-section-about>div {
+        max-width: 245px;
     }
 }
