@@ -50,14 +50,15 @@
         <nav>
             <a href="#">RickChaves</a>
             <ul>
-                <li><a id="linkAbout" href="#about">About</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
             </ul>
         </nav>
         <section>
             <div class="container-text">
                 <p>Hi, I'm Henrique Chaves</p>
                 <span>Full-Stack Developer</span>
-                <a href="#">Download CV</a>
+                <a download href="/assets/cv-dev.pdf">Download CV</a>
             </div>
             <div class="container-image">
                 <img src="./assets/photo-room.jpg" alt="Image represent my avatar">
@@ -98,10 +99,50 @@
                 </li>
             </ul>
         </section>
+        <section id="skills" class="container-section-skills">
+            <div class="box-services">
+                <h1>What i do</h1>
+                <ul>
+                    <li id="border-control-one">
+                        <img src="./assets/ic-vector-fd.svg" alt="image ilustrate front-end dev">
+                        <span>Front-End Development</span>
+                    </li>
+                    <li id="border-control-two">
+                        <img src="./assets/ic-vector-bd.svg" alt="image ilustrate back-end dev">
+                        <span>Back-End Development</span>
+                    </li>
+                    <li id="border-control-three">
+                        <img src="./assets/ic-vector-md.svg" alt="image ilustrate mobille dev">
+                        <span>Mobille Development</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="box-skills" class="box-skills">
+                <h1>My Skills</h1>
+                <ul>
+                    <li>
+                        <i id="percentage-one"></i>
+                        <span id="skill-name-one"></span>
+                    </li>
+                    <li>
+                        <i id="percentage-two"></i>
+                        <span id="skill-name-two"></span>
+                    </li>
+                    <li>
+                        <i id="percentage-three"></i>
+                        <span id="skill-name-three"></span>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
+    <footer>
+        <a href="http://rickchaves29.github.io" target="_blank" rel="noopener noreferrer">@RickChaves</a>
+    </footer>
     <script>
         document.documentElement.lang = navigator.language
     </script>
+    <script src="./js/borderControl.js"></script>
 </body>
 
 </html>
