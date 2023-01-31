@@ -1,148 +1,208 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZ42TJ51W4"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BZ42TJ51W4"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-BZ42TJ51W4');
+      gtag("config", "G-BZ42TJ51W4");
     </script>
     <!-- Compatibility tags-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Primary Meta Tags -->
     <title>Henrique Chaves - Full-Stack Developer</title>
-    <meta name="title" content="Henrique Chaves - Full-Stack Developer">
-    <meta name="description" content="I'm call me Henrique Chaves, full-stack developer Freelancer and love everythings about tech">
-    <meta name="author" content="Henrique Chaves">
-    <link rel="canonical" href="https://rickchaves29.github.io/">
+    <meta name="title" content="Henrique Chaves - Full-Stack Developer" />
+    <meta
+      name="description"
+      content="I'm call me Henrique Chaves, full-stack developer Freelancer and love everythings about tech"
+    />
+    <meta name="author" content="Henrique Chaves" />
+    <link rel="canonical" href="https://rickchaves29.github.io/" />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://rickchaves29.github.io/">
-    <meta property="og:title" content="Henrique Chaves - Full-Stack Developer">
-    <meta property="og:description" content="I'm call me Henrique Chaves, full-stack developer Freelancer and love everythings about tech">
-    <meta property="og:image" content="https://rickchaves29.github.io/assets/portifolio-img.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rickchaves29.github.io/" />
+    <meta
+      property="og:title"
+      content="Henrique Chaves - Full-Stack Developer"
+    />
+    <meta
+      property="og:description"
+      content="I'm call me Henrique Chaves, full-stack developer Freelancer and love everythings about tech"
+    />
+    <meta
+      property="og:image"
+      content="https://rickchaves29.github.io/assets/portifolio-img.png"
+    />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://rickchaves29.github.io/">
-    <meta property="twitter:title" content="Henrique Chaves - Full-Stack Developer">
-    <meta property="twitter:description" content="I'm call me Henrique Chaves, full-stack developer Freelancer and love everythings about tech">
-    <meta property="twitter:image" content="https://rickchaves29.github.io/assets/portifolio-img.png">
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://rickchaves29.github.io/" />
+    <meta
+      property="twitter:title"
+      content="Henrique Chaves - Full-Stack Developer"
+    />
+    <meta
+      property="twitter:description"
+      content="I'm call me Henrique Chaves, full-stack developer Freelancer and love everythings about tech"
+    />
+    <meta
+      property="twitter:image"
+      content="https://rickchaves29.github.io/assets/portifolio-img.png"
+    />
 
     <!-- Styles and fonts tags-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/global.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <a href="#">RickChaves</a>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-            </ul>
-        </nav>
-        <section>
-            <div class="container-text">
-                <p>Hi, I'm Henrique Chaves</p>
-                <span>Full-Stack Developer</span>
-                <a download href="/assets/cv-dev.pdf">Download CV</a>
-            </div>
-            <div class="container-image">
-                <img src="./assets/photo-room.jpg" alt="Image represent my avatar">
-            </div>
-        </section>
+      <nav>
+        <a>RickChaves</a>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </nav>
+      <section>
+        <div class="container-text">
+          <p>Hi, I'm Henrique Chaves</p>
+          <span>Full-Stack Developer</span>
+          <a id="btn-open-modal">Download CV</a>
+        </div>
+        <div class="container-image">
+          <img src="./assets/photo-room.jpg" alt="Image represent my avatar" />
+        </div>
+      </section>
     </header>
     <main>
-        <section id="about" class="container-section-about">
-            <div>
-                <h1>About</h1>
-                <p>Since I was a child, I know that my vocation was for technology, and it was always easy for me to
-                    understand Hardware and Software.
-                    I am passionate about developing solutions and solving problems.
-                    Life took me to other paths, right now I'm in the process of career transition.
-                    I am currently dedicated to seizing an opportunity as a Web Developer, I have a lot of aptitude to
-                    work with technologies such as Golang, Docker, PostgresSQL Database, HTML5 and CSS3, React.js with
-                    Javascript or Typescript, I have knowledge of how platforms such as GCP and AWS and good development
-                    practices such as Clean Code and writing unit tests, I have a good understanding of architectural
-                    patterns such as MVC, MVVM, MVP</p>
-            </div>
-            <ul>
-                <li>
-                    <div><i></i></div>
-                    <strong>Full Name</strong>
-                    <a href="https://rickchaves29.github.io/mysociallinks/" target="_blank">Moises Henrique Chaves
-                        Bispo</a>
-                </li>
-                <li>
-                    <div><i></i></div>
-                    <strong>Linkedin</strong>
-                    <a href="https://www.linkedin.com/in/developer-henrique-chaves/"
-                        target="_blank">developer-henrique-chaves</a>
-                </li>
-                <li>
-                    <div><i></i></div>
-                    <strong>GitHub</strong>
-                    <a href="https://github.com/RickChaves29" target="_blank">github.com/RickChaves29</a>
-                </li>
-            </ul>
-        </section>
-        <section id="skills" class="container-section-skills">
-            <div class="box-services">
-                <h1>What i do</h1>
-                <ul>
-                    <li id="border-control-one">
-                        <img src="./assets/ic-vector-fd.svg" alt="image ilustrate front-end dev">
-                        <span>Front-End Development</span>
-                    </li>
-                    <li id="border-control-two">
-                        <img src="./assets/ic-vector-bd.svg" alt="image ilustrate back-end dev">
-                        <span>Back-End Development</span>
-                    </li>
-                    <li id="border-control-three">
-                        <img src="./assets/ic-vector-md.svg" alt="image ilustrate mobille dev">
-                        <span>Mobille Development</span>
-                    </li>
-                </ul>
-            </div>
-            <div id="box-skills" class="box-skills">
-                <h1>My Skills</h1>
-                <ul>
-                    <li>
-                        <i id="percentage-one"></i>
-                        <span id="skill-name-one"></span>
-                    </li>
-                    <li>
-                        <i id="percentage-two"></i>
-                        <span id="skill-name-two"></span>
-                    </li>
-                    <li>
-                        <i id="percentage-three"></i>
-                        <span id="skill-name-three"></span>
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <section id="about" class="container-section-about">
+        <div>
+          <h1>About</h1>
+          <p>
+            Since I was a child, I know that my vocation was for technology, and
+            it was always easy for me to understand Hardware and Software. I am
+            passionate about developing solutions and solving problems. Life
+            took me to other paths, right now I'm in the process of career
+            transition. I am currently dedicated to seizing an opportunity as a
+            Web Developer, I have a lot of aptitude to work with technologies
+            such as Golang, Docker, PostgresSQL Database, HTML5 and CSS3,
+            React.js with Javascript or Typescript, I have knowledge of how
+            platforms such as GCP and AWS and good development practices such as
+            Clean Code and writing unit tests, I have a good understanding of
+            architectural patterns such as MVC, MVVM, MVP
+          </p>
+        </div>
+        <ul>
+          <li>
+            <div><i></i></div>
+            <strong>Full Name</strong>
+            <a
+              href="https://rickchaves29.github.io/mysociallinks/"
+              target="_blank"
+              >Moises Henrique Chaves Bispo</a
+            >
+          </li>
+          <li>
+            <div><i></i></div>
+            <strong>Linkedin</strong>
+            <a
+              href="https://www.linkedin.com/in/developer-henrique-chaves/"
+              target="_blank"
+              >developer-henrique-chaves</a
+            >
+          </li>
+          <li>
+            <div><i></i></div>
+            <strong>GitHub</strong>
+            <a href="https://github.com/RickChaves29" target="_blank"
+              >github.com/RickChaves29</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section id="skills" class="container-section-skills">
+        <div class="box-services">
+          <h1>What i do</h1>
+          <ul>
+            <li id="border-control-one">
+              <img
+                src="./assets/ic-vector-fd.svg"
+                alt="image ilustrate front-end dev"
+              />
+              <span>Front-End Development</span>
+            </li>
+            <li id="border-control-two">
+              <img
+                src="./assets/ic-vector-bd.svg"
+                alt="image ilustrate back-end dev"
+              />
+              <span>Back-End Development</span>
+            </li>
+            <li id="border-control-three">
+              <img
+                src="./assets/ic-vector-md.svg"
+                alt="image ilustrate mobille dev"
+              />
+              <span>DevOps</span>
+            </li>
+          </ul>
+        </div>
+        <div id="box-skills" class="box-skills">
+          <h1>My Skills</h1>
+          <ul>
+            <li>
+              <i id="percentage-one"></i>
+              <span id="skill-name-one"></span>
+            </li>
+            <li>
+              <i id="percentage-two"></i>
+              <span id="skill-name-two"></span>
+            </li>
+            <li>
+              <i id="percentage-three"></i>
+              <span id="skill-name-three"></span>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer>
-        <a href="http://rickchaves29.github.io" target="_blank" rel="noopener noreferrer">@RickChaves</a>
+      <a
+        href="http://rickchaves29.github.io"
+        target="_blank"
+        rel="noopener noreferrer"
+        >@RickChaves</a
+      >
     </footer>
+    <dialog id="modal">
+      <span>Choose the CV in your language</span>
+      <a download href="assets/cv-dev-pt.docx">CV in pt-BR</a>
+      <a download href="assets/cv-dev-en.docx">CV in en</a>
+      <input value="X" type="reset" />
+    </dialog>
     <script>
-        document.documentElement.lang = navigator.language
+      document.documentElement.lang = navigator.language;
     </script>
     <script src="./js/borderControl.js"></script>
-</body>
-
+    <script src="js/modalControl.js"></script>
+  </body>
 </html>
