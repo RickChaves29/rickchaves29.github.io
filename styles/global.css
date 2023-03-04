@@ -385,7 +385,7 @@ footer > a {
   color: var(--gray);
 }
 
-#header-porjects {
+#header-projects {
   display: flex;
   flex-direction: row;
   padding: 1rem 2rem;
@@ -400,4 +400,48 @@ footer > a {
   justify-content: center;
   gap: 3rem;
   margin: 2rem 0;
+}
+#main-projects > section {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#main-projects > section > h1 {
+  margin: 1rem 0;
+}
+#main-projects > section > h1.back-end {
+  color: var(--green);
+}
+#main-projects > section > h1.front-end {
+  color: #963beb;
+}
+#main-projects > section > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+#main-projects > section > ul > li > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: var(--gray-600);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+#main-projects > section > ul > li > a.back-end {
+  border: 1px solid var(--green);
+}
+#main-projects > section > ul > li > a.front-end {
+  border: 1px solid #963beb;
+}
+#main-projects > section > ul > li > a:hover {
+  cursor: pointer;
+  border: 1px solid var(--gray-600);
 }
