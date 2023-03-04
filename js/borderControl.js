@@ -36,7 +36,7 @@ const backEndItemTwo = {
   skill: "Java",
 };
 const backEndItemThree = {
-  percentage: "20%",
+  percentage: "40%",
   skill: "Golang",
 };
 const infraItemOne = {
@@ -48,8 +48,8 @@ const infraItemTwo = {
   skill: "Database",
 };
 const infraItemThree = {
-  percentage: "10%",
-  skill: "GCP",
+  percentage: "30%",
+  skill: "AWS",
 };
 
 const arrayFrontEndItems = [
