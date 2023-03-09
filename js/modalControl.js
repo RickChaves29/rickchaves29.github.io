@@ -1,5 +1,5 @@
 const modal = document.querySelector("dialog");
-const btnCloseModal = document.querySelector("dialog > input");
+const btnCloseModal = document.querySelector("dialog > i");
 
 const btnOpenModal = document.querySelector("#btn-open-modal");
 

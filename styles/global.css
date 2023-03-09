@@ -361,15 +361,13 @@ dialog[open] > a {
   background-color: var(--green);
   text-align: center;
 }
-dialog[open] > input {
+dialog[open] > i {
   color: var(--gray-400);
   align-self: flex-end;
-  background-color: brown;
-  padding: 0.25rem;
+  background-color: none;
   border: none;
-  border-radius: 10px;
 }
-dialog[open] > input:hover {
+dialog[open] > i:hover {
   cursor: pointer;
 }
 footer {
